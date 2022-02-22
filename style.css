@@ -49,3 +49,43 @@ body{
    display:flex;
    flex-direction: column;
 }
+
+#subheader{
+   display: flex;
+   padding: 20px 10%;
+   align-items: center;
+   justify-content: center;
+   background-color: #5b5151;
+   color: #f2d5d5;
+}
+
+#subheader h1{
+   font-weight:bolder;
+}
+
+#subheader img{
+   width: 400px;
+}
+.subsection{
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.subsection button{
+   align-self: flex-start;
+   width: 40%;
+   padding: 5px;
+   font-family: inherit;
+   font-size: 20px;
+   color: #f7f7f9;
+   background-color: #ff5a5d;
+   border-radius:5px;
+   border: 0px solid #ac9493;
+   box-shadow: 5px 5px 10px #2b2d42; 
+}
+
+.subsection button:hover{
+   box-shadow: 1px 1px 15px #ac9493;
+}
