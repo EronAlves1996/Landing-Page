@@ -78,7 +78,7 @@ body{
    justify-content: space-evenly;
 }
 
-.subsection button{
+.subsection button, #container button{
    align-self: flex-start;
    width: 40%;
    padding: 5px;
@@ -156,4 +156,37 @@ blockquote{
 strong{
    align-self:flex-end;
    margin-top: 10px;
+}
+
+#finalAttempt{
+   background-color: #f2d5d5;
+   display: flex;
+   padding: 70px 10%;
+}
+
+#container{
+   display: flex;
+   margin: auto;
+   align-items: center;
+   background-color: #ff5a5d;
+   border-radius: 15px;
+   padding: 80px;
+   gap: 30px;
+}
+
+.info{
+   display: flex;
+   flex-direction: column;
+   color: #f2d5d5;
+}
+
+.info h2, .info p{
+   text-shadow: 1px 1px 2px black;
+}
+.info p{
+   font-size: 20px;
+}
+#container button{
+   border: 3px solid white;
+   align-self: center;
 }
