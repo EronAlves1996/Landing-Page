@@ -52,7 +52,10 @@ body{
 
 #subheader{
    display: flex;
-   padding: 20px 10%;
+   padding: 20px 10% 70px;
+   justify-content:space-around;
+   gap: 10px;
+;
    align-items: center;
    background-color: #5b5151;
    color: #f2d5d5;
@@ -100,11 +103,11 @@ main{
    display: flex;
    background-color:#f2d5d5;
    flex-direction:column;
-   padding: 20px 10%;
+   padding: 20px 10% 70px;
    color: #2b2d42;
 }
 
-section{
+section#submain{
    display: flex;
    justify-content:space-around;
    gap: 10px;
