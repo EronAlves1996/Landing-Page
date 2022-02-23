@@ -191,3 +191,15 @@ strong{
    border: 3px solid white;
    align-self: center;
 }
+
+footer{
+   display: flex;
+   background-color: #2b2d42;
+   color: #f2d5d5;
+   padding: 30px 10%;
+}
+
+footer p{
+   margin: auto;
+   font-size: 20px;
+}
