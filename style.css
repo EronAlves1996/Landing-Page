@@ -54,23 +54,25 @@ body{
    display: flex;
    padding: 20px 10%;
    align-items: center;
-   justify-content: center;
    background-color: #5b5151;
    color: #f2d5d5;
 }
 
 #subheader h1{
-   font-weight:bolder;
+   font-weight:900;
+   font-size: 47px;
 }
 
 #subheader img{
    width: 400px;
+   border-radius: 10px;
 }
 .subsection{
-   width: 400px;
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   flex: 1;
+   align-self: stretch;
+   justify-content: space-evenly;
 }
 
 .subsection button{
@@ -88,4 +90,8 @@ body{
 
 .subsection button:hover{
    box-shadow: 1px 1px 15px #ac9493;
+}
+
+.subsection p{
+   font-size: 18px;
 }
